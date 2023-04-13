@@ -7,10 +7,16 @@ body {
     margin: 0;
 }
 
+.grid-container,
+.column {
+    background-color: orange;
+}
+
 .grid-container {
     min-height: 100vh; 
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .row {
@@ -19,11 +25,22 @@ body {
 }
 
 .column {
-    background-color: orange;
     flex: 1;
     display: flex;
     align-items: center; 
     justify-content: center;  
+}
+
+button {
+    background-color: rgb(184, 19, 19);
+    color: white;
+    width: 150px;
+    border-radius: 12px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .active {
