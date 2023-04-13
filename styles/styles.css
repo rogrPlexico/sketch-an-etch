@@ -32,15 +32,26 @@ body {
 }
 
 button {
-    background-color: rgb(184, 19, 19);
     color: white;
-    width: 150px;
     border-radius: 12px;
     height: 40px;
     font-size: 16px;
     position: absolute;
+    margin: 10px;
+}
+
+.grid-button {
+    background-color: rgb(184, 19, 19);
+    width: 150px;
     top: 0;
     left: 0;
+}
+
+.background-button {
+    background-color: green;
+    width: 200px;
+    top: 0;
+    right: 0;
 }
 
 .active {
